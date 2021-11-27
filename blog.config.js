@@ -1,8 +1,8 @@
 const BLOG = {
   title: 'Notepad',
   author: 'MilkClouds',
-  email: 'i@craigary.net',
-  link: 'https://milkclouds.github.io',
+  email: 'milkclouds00@gmail.com',
+  link: 'https://milkclouds.vercel.app',
   description: 'This gonna be an awesome website.',
   lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
