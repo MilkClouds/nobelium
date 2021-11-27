@@ -20,7 +20,7 @@ const BLOG = {
   socialLink: 'https://twitter.com/milkclouds00',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
-    googleSiteVerification: 'hIXXHeZOB63K9jI04LMb3cj4Guj8ungGghUwlIJzwXY' // Remove the value or replace it with your own google site verification code
+    googleSiteVerification: 'RmmW-71jWAZjGXhhq913BMZPn-HNJhjllLtCJ7EQgrU' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
