@@ -28,6 +28,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         {BLOG.seo.keywords && (
           <meta name="keywords" content={BLOG.seo.keywords.join(', ')} />
         )}
+        <meta name="naver-site-verification" content="3993a4cce74cc2ff1e0f3d8edf9863b3716caae2" />
         <meta name="description" content={meta.description} />
         <meta property="og:locale" content={BLOG.lang} />
         <meta property="og:title" content={meta.title} />

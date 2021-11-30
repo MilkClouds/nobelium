@@ -27,6 +27,8 @@ const Scripts = () => (
           window.addEventListener('scroll',scrollTrigger);`}
       </Script>
     )} */}
+    <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6016242946109500"
+     crossorigin="anonymous"></Script>
     {BLOG.analytics && BLOG.analytics.provider === 'ga' && (
       <>
         <Script
