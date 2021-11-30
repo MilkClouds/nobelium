@@ -5,12 +5,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/craigary/nobelium.git"
+    "url": "https://github.com/milkclouds/nobelium.git"
   },
   "author": {
-    "name": "Craig Hart",
-    "email": "i@craigary.net",
-    "url": "http://craigary.net"
+    "name": "MilkClouds",
+    "email": "milkclouds00@gmail.com",
+    "url": "http://milkclouds.vercel.app"
   },
   "scripts": {
     "dev": "next dev",
@@ -50,7 +50,7 @@
     "axios": ">=0.21.1"
   },
   "bugs": {
-    "url": "https://github.com/craigary/nobelium/issues",
-    "email": "i@craigary.net"
+    "url": "https://github.com/milkclouds/nobelium/issues",
+    "email": "milkclouds00@gmail.com"
   }
 }
