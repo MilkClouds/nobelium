@@ -3,7 +3,7 @@ const BLOG = {
   author: 'MilkClouds',
   email: 'milkclouds00@gmail.com',
   link: 'https://milkclouds.vercel.app',
-  description: 'This gonna be an awesome website.',
+  description: 'Thinking blog',
   lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
