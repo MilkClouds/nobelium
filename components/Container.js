@@ -31,9 +31,6 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         <meta name="naver-site-verification" content="3993a4cce74cc2ff1e0f3d8edf9863b3716caae2" />
         <meta http-equiv="refresh" content="1;url=https://milkclouds.vercel.app"/>
      <link rel="canonical" href="https://milkclouds.vercel.app"/>
-     <script type="text/javascript">
-             window.location.href = "https://milkclouds.vercel.app"
-     </script>
      <title>Page Redirection</title>
         <meta name="description" content={meta.description} />
         <meta property="og:locale" content={BLOG.lang} />
