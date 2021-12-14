@@ -29,7 +29,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           <meta name="keywords" content={BLOG.seo.keywords.join(', ')} />
         )}
         <meta name="naver-site-verification" content="3993a4cce74cc2ff1e0f3d8edf9863b3716caae2" />
-        <meta http-equiv="refresh" content="1;url=https://milkclouds.vercel.app"/>
+        <meta httpEquiv="refresh" content="1;url=https://milkclouds.vercel.app"/>
      <link rel="canonical" href="https://milkclouds.vercel.app"/>
      <title>Page Redirection</title>
         <meta name="description" content={meta.description} />
