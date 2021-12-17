@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 const Container = ({ children, layout, fullWidth, ...customMeta }) => {
   const url = BLOG.path.length ? `${BLOG.link}/${BLOG.path}` : BLOG.link
   let url2 = BLOG.path.length ? `https://milkclouds.work/${BLOG.path}` : 'https://milkclouds.work'
-  url2 = url2.replace(" ", "-")
+  url2 = url2.replace(' ', '-')
   const meta = {
     title: BLOG.title,
     type: 'website',
