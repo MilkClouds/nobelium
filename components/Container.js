@@ -7,6 +7,8 @@ import PropTypes from 'prop-types'
 
 const Container = ({ children, layout, fullWidth, ...customMeta }) => {
   const url = BLOG.path.length ? `${BLOG.link}/${BLOG.path}` : BLOG.link
+  var url2 = BLOG.path.length ? `${'https://milkclouds.work'}/${BLOG.path}` : 'https://milkclouds.work'
+  url2 = url2.replace(" ", "-")
   const meta = {
     title: BLOG.title,
     type: 'website',
@@ -29,8 +31,8 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           <meta name="keywords" content={BLOG.seo.keywords.join(', ')} />
         )}
         <meta name="naver-site-verification" content="3993a4cce74cc2ff1e0f3d8edf9863b3716caae2" />
-        <meta httpEquiv="refresh" content="1;url=https://milkclouds.work"/>
-     <link rel="canonical" href="https://milkclouds.work"/>
+        {/* <meta httpEquiv="refresh" content="1;url="+url2/> */}
+     <link rel="canonical" href={url2}/>
 
      <title>Page Redirection</title>
         <meta name="description" content={meta.description} />
